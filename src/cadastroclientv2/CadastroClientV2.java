@@ -37,10 +37,7 @@ public class CadastroClientV2 {
             while (true) {
                 System.out.println("--------------------------:");
                 System.out.println("\nMenu:");
-                System.out.println("L - Listar produtos");
-                System.out.println("E - Entrada de produto");
-                System.out.println("S - Saída de produto");
-                System.out.println("X - Finalizar");
+                System.out.println("L - Listar | X - Finalizar | E - Entrada | S - Saída");
 
                 System.out.print("Digite o comando: ");
                 comando = reader.readLine();
